@@ -1,0 +1,81 @@
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .voiceButton,
+  .leftArrow,
+  .currentPageContainer,
+  .RightArrow,
+  .infoButton {
+    position: relative;
+    background-color: #cd3f97;
+    border: 3px solid #cd3f97;
+  }
+  .voiceButton {
+    width: 48px;
+    height: 48px;
+    border: 3px solid #f8ebfd;
+    border-radius: 25px;
+    margin-right: 25rem;
+  }
+  
+  .voiceIcon,
+  .infoIcon {
+    color: white;
+  }
+  
+  .currentPageContainer {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    border: 2px solid #f8ebfd;
+    border-radius: 5px;
+    padding: 5px;
+    color: #ffffff;
+  }
+  
+  .page {
+    width: 7px;
+    height: 25px;
+    font-family: Short Stack;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.63px;
+    text-align: center;
+  }
+  
+  .currentPageContainer span {
+    margin-right: 5px;
+  }
+  
+  .infoButton {
+    width: 48px;
+    height: 48px;
+    border: 3px solid #f8ebfd;
+    border-radius: 25px;
+    margin-left: 25rem;
+  }
+  
+  .leftArrow,
+  .RightArrow {
+    border: none;
+    background-color: transparent;
+    color: #cd3f97;
+    cursor: pointer;
+  }
+  
+  .RightArrow {
+    transform: rotate(90deg);
+  }
+  
+  .leftArrow {
+    transform: rotate(-90deg);
+  }
+  .leftArrow:hover,
+.RightArrow:hover {
+  background-color: #f8ebfd;
+  border-color: #f8ebfd; 
+}

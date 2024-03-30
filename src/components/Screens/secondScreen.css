@@ -1,0 +1,143 @@
+.content1 {
+  position: relative;
+  width: 1038px;
+  height: 117px;
+  font-family: Short Stack;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39.41px;
+  text-align: left;
+  color: #1e242f;
+}
+.paragraph2 {
+  height: 30px;
+  top: 176px;
+  font-size: 24px;
+  line-height: 29.55px;
+}
+
+.imageContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.beach,
+.haunted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 235.03px;
+  height: 168px;
+  margin: 5px;
+  padding: 5px;
+  border: 3px dotted #cccccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #0000001a inset;
+}
+.paragraphContent {
+  display: flex;
+  justify-content: space-evenly;
+}
+.paragraph3,
+.paragraph4 {
+  font-family: Short Stack;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.rectangleContainer1 {
+  border: 3px solid transparent;
+  width: 1026px;
+  height: 90px;
+  margin-bottom: 20px;
+}
+.rectangleContainer1Text {
+  position: relative;
+  width: 1038px;
+  top: -1rem;
+  font-family: Short Stack;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  color: #1e242f;
+}
+
+input[type="text"] {
+  width: 70%;
+  border: 3px dotted #cccccc;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  text-decoration:underline;
+  background-color: #fff;
+  outline:none;
+}
+
+
+
+.rectangleContainer2 {
+  width: 1026px;
+  height: 85px;
+  border-radius: 5px;
+  border: 3px dotted #a4fdfb;
+  background-color: #25a3a1;
+  box-shadow: 0px 0px 10px 0px #00000040;
+}
+
+.rectangleContainer2Text {
+  position: relative;
+  width: 997px;
+  height: 67px;
+  left: 6px;
+  top: -1rem;
+  font-family: Short Stack;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.home,
+.clock {
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.clock {
+  width: 34.7px;
+  height: 34.7px;
+  background-color: #EF4361;
+}
+
+.home {
+  width: 34.68px;
+  height: 34.68px;
+  background-color: #8258A4;
+}
+
+.rectangleContainer3 {
+    margin-top: -0.5rem;
+  border: 2px solid transparent;
+  width: 1038px;
+  height: 105px;
+  font-family: Short Stack;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.63px;
+  text-align: left;
+  color: #1e242f;
+}
