@@ -79,3 +79,36 @@
   background-color: #f8ebfd;
   border-color: #f8ebfd; 
 }
+
+/* Media query for screens smaller than 1024px wide */
+@media only screen and (max-device-width: 1024px) {
+
+  
+  .buttonContainer {
+    margin-top: 10px; 
+  }
+
+  
+  .voiceButton,
+  .infoButton {
+    margin-right: 15rem;
+    margin-left: 15rem;
+  }
+
+  .page {
+    font-size: 18px; 
+  }
+}
+
+/* Media query for laptops (max-width: 1336px) */
+@media only screen and (max-width: 1336px) {
+
+
+  .voiceButton {
+    margin-right: 20rem; 
+  }
+  
+  .infoButton {
+    margin-left: 20rem; 
+  }
+}

@@ -9,3 +9,8 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
   }
   
+  @media only screen and (max-device-width: 1024px) {
+    .card {
+      width:80%;
+    }
+  }

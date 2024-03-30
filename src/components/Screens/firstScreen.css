@@ -3,32 +3,32 @@
   position: relative;
 }
 .funFox {
-  top: 60px;
-  left: 13%;
+  top: 50px;
+  left: 5%;
 }
 
 .Week1 {
+  position: relative;
   top: -10px;
-  left: 250px;
+  left: 4%;
 }
-.leftSide {
+.leftSide, .rightSide {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 14rem;
   position: absolute;
+}
+
+.leftSide {
+  gap: 14rem;
   top: 13rem;
-  left: 15rem;
+  left: 4rem;
 }
 
 .rightSide {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   gap: 12rem;
-  position: absolute;
   top: 10rem;
-  right: 14rem;
+  right: 3.5rem;
 }
 
 
@@ -54,7 +54,8 @@
   color: #ffffff;
 }
 .welcomeMessage {
-  width: 1046px;
+  width: 100%;
+  max-width: 1046px;
   height: 87px;
   font-family: Short Stack;
   margin-bottom: -13px;
@@ -98,7 +99,7 @@
 .word-list {
   display: flex;
   flex-direction: row;
-  gap: 10px; /* Adjust the gap between words */
+  gap: 10px; 
 }
 
 .word-list span {
@@ -145,5 +146,89 @@
 
 .image {
   width: 100%;
+}
+
+/* Media Queries for Laptop */
+@media only screen and (max-width: 1336px) {
+  .funFox {
+    left: 3%;
+  }
+
+  .Week1 {
+    left: 2%;
+  }
+
+  .leftSide {
+    left: 2rem;
+  }
+
+  .rightSide {
+    right: 2rem;
+  }
+
+  .heading {
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-device-width: 1024px) {
+
+  .funFox{
+    top:50px;
+    left:1%;
+  }
+
+
+  .leftSide {
+    gap: 15rem;
+    left: 0.5rem;
+  }
+
+  .rightSide { 
+    gap: 13rem;
+    right:0.1rem;
+  }
+
+  .heading {
+    width: 50%; 
+    margin-left: 25%; 
+  }
+
+ 
+  .headingText,
+  .welcomeMessage,
+  .knowledge,
+  .rectangle1Text,
+  .rectangle2Text {
+    font-size: 18px;
+  }
+
+
+  .rectangle1,
+  .rectangle2 {
+    width: 100%; 
+  }
+
+  
+  .childRead {
+    left: 38rem; 
+    top: -6.5rem; 
+  }
+
+  .word-list{
+    gap:2px;  
+  }
+  .word-list span{
+    width:120px;
+    
+  }
+  .wrapper{
+    width:50%;
+    margin-right: 45%;
+  }
+
+  .image {
+    width: 100%; 
+  }
 }
 

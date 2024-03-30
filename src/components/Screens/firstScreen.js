@@ -37,8 +37,8 @@ const FirstScreen = () => {
         <div className="rectangle1">
           <p className="rectangle1Text">
             There are <b>five</b> elements which make the foundation
-            for story writing. An element is an essential part of something and
-            every fiction story has the same key elements:
+            for story writing. <br/>An element is an essential part of something and
+            <br/>every fiction story has the same key elements:
           </p>
           <span className="childRead">
             <SidesImages name="Child" />
@@ -46,7 +46,7 @@ const FirstScreen = () => {
         </div>
         <div className="word-list">
           <span>
-            <CloudImages name="Setting" />
+            <CloudImages name="Setting"  />
           </span>
           <span>
             <CloudImages name="Characters" />
@@ -63,11 +63,11 @@ const FirstScreen = () => {
         </div>
         <p className="knowledge">
           You must be familiar with some of these. If not, do not worry! we will
-          cover all these elements as we go along.
+          <br/>cover all these elements as we go along.
         </p>
         <div className="rectangle2">
           <div className="wrapper">
-          <AssetImages name="Paper" />
+          <AssetImages name="Paper"/>
             <p className="rectangle2Text">
               For today's lesson, we will try to understand and practice writing
               the setting for our stories.

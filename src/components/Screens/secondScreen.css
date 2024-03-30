@@ -141,3 +141,62 @@ input[type="text"] {
   text-align: left;
   color: #1e242f;
 }
+
+
+/* Media query for laptops (max-width: 1336px) */
+@media only screen and (max-width: 1336px) {
+
+  .content1,
+  .rectangleContainer1,
+  .rectangleContainer2,
+  .rectangleContainer3 {
+    width: 90%; 
+  }
+
+  .imageContent {
+    gap: 5rem;
+  } 
+  
+
+  .paragraph2, 
+  .paragraph3, 
+  .paragraph4,
+  .rectangleContainer1Text,
+  .rectangleContainer2Text {
+    font-size: 18px;
+  }
+}
+
+/* Media query for iPad Pro (max-device-width: 1024px) */
+@media only screen and (max-device-width: 1024px) {
+
+  
+  .content1,
+  .rectangleContainer1,
+  .rectangleContainer2,
+  .rectangleContainer3 {
+    width: 100%; 
+  }
+
+
+  .imageContent {
+    gap: 2rem;
+    margin-top: 20px;  
+   
+  }
+
+  .paragraph2, 
+  .paragraph3, 
+  .paragraph4,
+  .rectangleContainer1Text,
+  .rectangleContainer2Text {
+    font-size: 16px; 
+  }
+  .rectangleContainer1Text{
+    margin-top: 5px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    
+  }
+}
